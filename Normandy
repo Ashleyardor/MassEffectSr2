@@ -1,0 +1,38 @@
+package spaceships.alliance;
+
+import java.util.Arrays;
+
+import spaceships.Spaceships;
+
+public class Normandy extends Alliance{
+
+	public Normandy(String name, String warpClass, String size, String Captain, String[] Crew) {
+		super(name, warpClass, size, Captain, Crew);
+		Spaceships.name= "Normandy";
+		Spaceships.warpClass = "Warp 9.5";
+		Spaceships.size = "Covert Battle Cruiser";
+		Alliance.Captain = "Commander Shepard";
+		Alliance.Crew = new String[10];
+		
+		Alliance.Crew[0]= "Tali";
+		Alliance.Crew[1]= "Garrus";
+		Alliance.Crew[2]= "Wrex";
+		Alliance.Crew[3]= "Joker";
+		Alliance.Crew[4]= "Liara";
+		Alliance.Crew[5]= "Engineer Adams";
+		Alliance.Crew[6]= "Engineer Presley";
+		Alliance.Crew[7]= "Yoeman Kelly";
+		Alliance.Crew[8]= "EDI";
+		Alliance.Crew[9]= "Wrex";
+}
+	public void DisplaySpecs(){
+		System.out.println("Ship Name: "+ getName());
+		System.out.println("Ship Class: "+ getWarpClass());
+		System.out.println("Ship Size: "+ getSize());
+	}
+	public void DisplayManifest(){
+		System.out.println("Captain of " + getName()+ " is " + Captain);
+		System.out.println("Crew of " + getName()+ " is " + Arrays.toString(Alliance.Crew));
+	}
+
+}
