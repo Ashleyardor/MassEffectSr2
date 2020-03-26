@@ -20,7 +20,7 @@ public class Normandy extends Alliance{
 		Alliance.Crew[3]= "Joker";
 		Alliance.Crew[4]= "Liara";
 		Alliance.Crew[5]= "Engineer Adams";
-		Alliance.Crew[6]= "Engineer Presley";
+		Alliance.Crew[6]= "Thane";
 		Alliance.Crew[7]= "Yoeman Kelly";
 		Alliance.Crew[8]= "EDI";
 		Alliance.Crew[9]= "Grunt";
