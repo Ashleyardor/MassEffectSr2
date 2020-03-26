@@ -1,0 +1,41 @@
+package spaceships;
+
+public abstract class Spaceships {
+	protected static String name;
+	protected static String warpClass;
+	protected static  String size;
+
+	void Ship(String name, String warpClass, String size) {
+		 this.setName(name);
+		 this.setwarpClass(warpClass);
+		 this.setSize(size);
+	 }
+	 
+	protected abstract void DisplaySpecs();
+	
+	protected abstract void DisplayManifest();
+
+	public static String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		Spaceships.name = name;
+	}
+
+	public static String getWarpClass() {
+		return warpClass;
+	}
+
+	public void setwarpClass(String warpClass) {
+		Spaceships.warpClass = warpClass;
+	}
+
+	public static String getSize() {
+		return size;
+	}
+
+	public void setSize(String size) {
+		Spaceships.size = size;
+	}
+}
