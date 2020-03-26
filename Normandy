@@ -23,7 +23,7 @@ public class Normandy extends Alliance{
 		Alliance.Crew[6]= "Engineer Presley";
 		Alliance.Crew[7]= "Yoeman Kelly";
 		Alliance.Crew[8]= "EDI";
-		Alliance.Crew[9]= "Wrex";
+		Alliance.Crew[9]= "Grunt";
 }
 	public void DisplaySpecs(){
 		System.out.println("Ship Name: "+ getName());
