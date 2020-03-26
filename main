@@ -1,0 +1,13 @@
+package main;
+
+import spaceships.alliance.Normandy;
+
+public class Database {
+
+	public static void main(String[] args) {
+		Normandy sr2 = new Normandy(null, null, null, null, args);
+		sr2.DisplaySpecs();
+		sr2.DisplayManifest();
+	}
+
+}
