@@ -7,6 +7,8 @@ I am simply using the trilogy as a refernce so I don't have to create all new ch
 
 If you haven't played the trilogy, I highly recommend that you do.
 
+Changes will occur in each iteration
+
 Thanks
 
 Ash
