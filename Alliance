@@ -1,0 +1,27 @@
+package spaceships.alliance;
+
+import spaceships.Spaceships;
+
+public class Alliance extends Spaceships {
+	static String Captain;
+	static String[] Crew;
+  
+	//Warp Class is from Startrek-- Couldn't help myself
+  
+	public Alliance(String name, String warpClass, String size, String Captain, String[] Crew){
+		super();
+		Alliance.Captain = Captain;
+		Alliance.Crew = Crew;
+	}
+	
+	public void DisplaySpecs() {
+		System.out.println("Ship Name: "+ getName());
+		System.out.println("Ship Class: "+ getWarpClass());
+		System.out.println("Ship Size: "+ getSize());
+		
+	}
+	public void DisplayManifest() {
+		System.out.println("Captain of " + getName()+ " is "+ Captain);
+		System.out.println("Crew of " + getName()+ " is "+ Crew);
+	}
+}
